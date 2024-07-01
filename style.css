@@ -1,0 +1,437 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:#1a659e;
+    border: none;
+    
+}
+.heading{
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-top: 100px;
+    width: 1000px;
+    margin-left: 5%;
+    padding: 10px;
+    background-color:#3a7ca5;
+    box-shadow: 10px 10px black;
+}
+
+
+#one{
+   
+    font-size: 70px;
+    margin-left: 5%;
+    
+}
+
+#two{
+    line-height: 1;
+    font-size: 50px;
+    color: #bfdbf7;
+    margin-left: 5%;
+    margin-top: 30PX;
+}
+
+.heading p{
+    margin-left: 5%;
+    color: #bfdbf7;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10PX;
+}
+
+
+#box1{
+
+    margin-left: 15px;
+    width: 500px;
+    margin-top:30px;
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 430px;
+    
+    
+}
+#box1>img{
+    width: 400px;
+    height: 300px;
+}
+#box2{
+
+    margin-left: 15px;
+    width: 500px;
+    margin-top:30px;
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 430px;
+    
+    
+}
+#box2>img{
+    width: 400px;
+    height: 300px;
+}
+
+#box3{
+
+    margin-left: 15px;
+    width: 500px;
+    margin-top:30px;
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 430px;
+    
+    
+}
+#box3>img{
+    width: 400px;
+    height: 300px;
+}
+
+#box4{
+
+    margin-left: 15px;
+    width: 500px;
+    margin-top:30px;
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 430px;
+    
+    
+}
+#box4>img{
+    width: 400px;
+    height: 300px;
+}
+
+#box5{
+
+    margin-left: 15px;
+    width: 500px;
+    margin-top:30px;
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 430px;
+    
+    
+}
+#box5>img{
+    width: 400px;
+    height: 300px;
+}
+
+#box6{
+
+    margin-left: 15px;
+    width: 500px;
+    margin-top:30px;
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 430px;
+    
+    
+}
+#box6>img{
+    width: 400px;
+    height: 300px;
+}
+
+#box7{
+
+    margin-left: 15px;
+    width: 500px;
+    margin-top:30px;
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 430px;
+    
+    
+}
+#box7>img{
+    width: 400px;
+    height: 300px;
+}
+
+#box8{
+
+    margin-left: 15px;
+    width: 500px;
+    margin-top:30px;
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 430px;
+    
+    
+}
+#box8>img{
+    width: 400px;
+    height: 300px;
+}
+
+#box9{
+
+    margin-left: 15px;
+    width: 500px;
+    margin-top:30px;
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 430px;
+    
+    
+}
+#box9>img{
+    width: 400px;
+    height: 300px;
+}
+.wow{
+    display: flex;
+    text-align: center;
+    color: #bfdbf7;
+}
+ h1{
+    font-size: 70px;
+    margin-top: 70px;
+    animation-duration:3s;
+  animation-name: slidein;
+  
+
+}
+@keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+
+to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+h2{
+    font-size: 70px;
+    margin-top: 70px;
+
+    
+}
+
+#hello{
+
+   animation-duration:3s;
+ animation-name: slidein;
+ padding-top: 5px;
+ margin-top: 5px;
+ padding-bottom: 10px;
+ 
+
+}
+@keyframes slidein {
+   from {
+     translate: 150vw 0;
+     scale: 200% 1;
+   }
+
+to {
+   translate: 0 0;
+   scale: 100% 1;
+ }
+}
+h2{
+
+    animation:5s linear 1s infinite alternate slidein;
+    
+}
+h3{
+    font-size: 30px;
+}
+
+h5{
+    margin-top: 25px;
+margin-left: 45vw;
+padding-top: 5px;
+text-align: center;
+border: 4px solid black;
+box-shadow: 10px 10px black;
+font-size: 50px;
+width: 150px;
+
+
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+    
+}
+
+
+#pen{
+    width: 200px;
+    height: 200px;
+    background-color: #bfdbf7;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    animation-name: text;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border: 5px solid black;
+}
+h6{
+    padding-top: 40%;
+    font-size: 30px;
+}
+
+#paper{
+    width: 200px;
+    height: 200px;
+    background-color: #bfdbf7;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    animation-name: text;
+            animation-duration: 2s;
+            border: 5px solid black;
+            animation-iteration-count: infinite;
+}
+#pencil{
+    width: 200px;
+    height: 200px;
+    background-color: #bfdbf7;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    animation-name: text;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border: 5px solid black;
+}
+#pen {
+    animation-direction: normal;
+}
+
+#pencil {
+    animation-direction: reverse;
+}
+
+#paper{
+    animation-direction: alternate;
+}
+
+@keyframes text {
+    from {
+        margin-left: 60%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+.new{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+    
+}
+
+
+#paint{
+    width: 200px;
+    height: 200px;
+    background-color: #bfdbf7;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    animation-name: text;
+            animation-duration: 2s;
+            border: 5px solid black;
+            animation-iteration-count: infinite;
+}
+h6{
+    padding-top: 40%;
+    font-size: 30px;
+}
+
+#float{
+    width: 200px;
+    height: 200px;
+    background-color: #bfdbf7;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    animation-name: text;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border: 5px solid black;
+}
+#int{
+    width: 200px;
+    height: 200px;
+    background-color: #bfdbf7;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    animation-name: text;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border: 5px solid black;
+}
+#int>h6{
+    padding-top: 30%;
+}
+#paint {
+    animation-direction: normal;
+}
+
+#float {
+    animation-direction: reverse;
+}
+
+#int{
+    animation-direction: alternate;
+}
+
+@keyframes text {
+    from {
+        margin-left: 60%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+#testbutton {
+    width: 200px;
+    height:70px;
+    border-radius:180px;
+    background:#031d44;
+    cursor:pointer;
+    line-height:12px;
+    color: white;
+    border: 3px solid white;
+    margin-left: 45%;
+    font-size: 25px;
+  }
+  p{
+    font-size: 25px;
+    margin-left: 33%;
+  }
+  a{ font-size: 25px;
+    color:black;
+    text-decoration: none;
+  }
+    
+
+  
